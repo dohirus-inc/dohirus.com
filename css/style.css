@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:400,500,600,700|Raleway:300,400,500,600,700|Sofia');
 @font-face { font-family: ObjectiveMK; src: url('../fonts/ObjektivMk2_Trial_Md.ttf'); }
-@font-face { font-family: ObjectiveMK; font-weight: bold; src: url('../fonts/ObjektivMk2_Trial_Rg.ttf'); } 
+@font-face { font-family: ObjectiveMK; font-weight: bold; src: url('../fonts/ObjektivMk2_Trial_Bd.ttf'); } 
 /*
 * Decades Responsive App Landing Page;
 * version : 1.0;
@@ -429,7 +429,6 @@ button:active,
 
 .font-alt {
     font-family: 'Sofia', cursive;
-    font-style: italic;
     letter-spacing: 1px;
     font-size: 22px;
     text-transform: lowercase;
