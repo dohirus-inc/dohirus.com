@@ -1,7 +1,8 @@
 /* -====================== google fonts ======================-*/
 
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:400,500,600,700|Raleway:300,400,500,600,700|Sofia');
-
+@font-face { font-family: ObjectiveMK; src: url('../fonts/ObjektivMk2_Trial_Md.ttf'); }
+@font-face { font-family: ObjectiveMK; font-weight: bold; src: url('../fonts/ObjektivMk2_Trial_Rg.ttf'); } 
 /*
 * Decades Responsive App Landing Page;
 * version : 1.0;
@@ -35,6 +36,7 @@ html * {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-family: ObjectiveMK !important;
 }
 
 body {
@@ -437,6 +439,10 @@ button:active,
 
 .text-white {
     color: #fff;
+}
+
+.text-dohirus {
+    color: #1abbbc;
 }
 
 .bg-light {
