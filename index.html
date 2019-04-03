@@ -2,6 +2,8 @@
 <html lang="en">
 
 	<head>
+		<script src="mail.js" type="text/javascript"></script>
+
     <meta charset="utf-8">
 		
 		<!--=== Mobile specific metas ===-->
@@ -512,7 +514,7 @@
 									<!--=== end messages ===-->
 									
 									<!--=== start form ===-->
-									<form method="post" action="contact.php" name="contactform" id="contactform">
+									<form name="contactform" id="contactform">
 									
 										<div class="col-sm-6">
 										
@@ -562,7 +564,7 @@
 										
 											<!--=== start form-group ===-->
 											<div class="form-group text-center wow fadeInUp" data-wow-delay="0.8s">
-												<button class="btn-ellipse" type="submit" class="submit" id="submit">Send message</button>
+												<button class="btn-ellipse" onclick="onMailFormSubmit()" type="submit" class="submit" id="submit">Send message</button>
 											</div>
 											<!--=== end form-group ===-->
 											
