@@ -4,7 +4,7 @@ let onMailFormSubmit = () => {
   const subject = contactform.subject.value;
   const msg = contactform.comments.value;
 
-  fetch('http://localhost:1234/mail', {
+  fetch('https://dohirus-mail-service.herokuapp.com/mail', {
     method: 'POST',
     headers: {
       'Accept': 'application/json',
