@@ -1,8 +1,0 @@
-{
-  "scripts": {
-    "serve": "./node_modules/.bin/serve ."
-  },
-  "dependencies": {
-    "serve": "^10.1.2"
-  }
-}
